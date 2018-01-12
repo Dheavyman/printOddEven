@@ -1,0 +1,35 @@
+{
+  "name": "printoddeven",
+  "version": "1.0.0",
+  "description": "Output 3.1",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha --compilers js:babel-core/register tests/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dheavyman/printOddEven.git"
+  },
+  "keywords": [
+    "TDD"
+  ],
+  "author": "Justin Nebo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dheavyman/printOddEven/issues"
+  },
+  "homepage": "https://github.com/Dheavyman/printOddEven#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.1.2",
+    "babel-preset-env": "^1.6.1",
+    "chai": "^4.1.2",
+    "eslint": "^4.14.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "mocha": "^4.1.0"
+  }
+}
